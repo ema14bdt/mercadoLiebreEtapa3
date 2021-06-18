@@ -1,0 +1,165 @@
+*{
+    font-family: 'Roboto';
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* header */
+
+header{
+    background-color: var(--color-amarillo);
+    padding: 1em 0;
+}
+
+.logo{
+    margin-left: 5vw;
+    width: 200px;
+}
+
+.search{
+    margin-left: 5vw;
+}
+
+header p{
+    font-size: 12px;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.navbar{
+    display: none;
+}
+
+.burguer-menu{
+    display: block;
+    margin: 20px auto;
+    margin-bottom: 5px;
+    background-color: var(--color-celeste);
+    border: none;
+    padding: 7px;
+    color: white;
+    border-radius: 4px;
+}
+
+/* main */
+
+main{
+    width: 90vw;
+    margin: 0 5vw 0;
+    font-size: 12px;
+    background-color: var(--color-gris-claro);
+}
+
+img{
+    width: 90vw;
+}
+
+.lastview, .offers{
+    margin-top: 1rem;
+}
+
+.lastview h2, .offers h2{
+    font-size: 24px;
+}
+
+.product{
+    background-color: white;
+    margin: 10px 0 10px;
+}
+
+.description{
+    border-top: 1px solid #ebebeb;
+    padding: 15px;
+}
+
+.description i{
+    color: var(--color-verde);
+    border: 1px solid var(--color-verde);
+    border-radius: 18px;
+    padding: 10px;
+}
+
+.product p{
+    font-size: 18px;
+}
+
+.product span{
+    font-size: 16px;
+    color: var(--color-verde);
+}
+
+.product h4{
+    display: none;
+    font-size: 16px;
+    padding: 15px;
+    color: var(--color-gris-oscuro);
+    font-weight: 400;
+}
+
+/* footer */
+
+footer{
+    background-color: white;
+    text-align: center;
+    color: var(--color-gris-oscuro);
+}
+
+footer i{
+    color: var(--color-celeste);
+    font-size: 2em;
+    margin-top: 2em;
+    margin-bottom: 10px;
+    
+}
+
+footer h4{
+    font-size: large;
+}
+
+footer p{
+    font-size: 12px;
+    margin-left: 2em;
+    margin-right: 2em;
+}
+
+.copyright{
+    margin-top: 2em;
+    margin-bottom: 1em;
+}
+
+@media (min-width: 361px) {
+
+    .product{
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
+
+    .product h4{
+        display: inline-block;
+        padding-top: 0;
+    }
+
+    .burguer-menu{
+        display: none
+    }
+
+    .navbar{
+        display: inline-block;
+        margin-left: 5vw;
+    }
+
+    header ul{
+        list-style: none;
+        padding: 0px;
+    }
+    
+    header a{
+        text-decoration: none;
+        color: black;
+        font-size: 12px;
+    }
+}
+
+@media (min-width: 769px) {
+    
+}
